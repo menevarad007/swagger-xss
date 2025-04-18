@@ -1,12 +1,11 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: HTML Injection - IMG + JS
+  title: Markdown Image Injection
   description: |
-    <h1>HTML Injection: Image + JS</h1>
-    <img src="https://i.imgur.com/BrXWvdL.jpg" width="300">
-    <br>
-    <img src=x onerror=alert('Image-based XSS - menevarad007')>
+    ![PoC](https://i.imgur.com/BrXWvdL.jpg)
+
+    This image was injected using Markdown.
 paths:
   /:
     post:
