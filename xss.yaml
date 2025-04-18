@@ -1,10 +1,12 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: HTML Injection - IMG Injected
+  title: HTML Injection - IMG + JS
   description: |
-    <h1>HTML Injection : IMG injected</h1>
-    <img src=x onerror=alert(document.domain)>
+    <h1>HTML Injection: Image + JS</h1>
+    <img src="https://i.imgur.com/BrXWvdL.jpg" width="300">
+    <br>
+    <img src=x onerror=alert('Image-based XSS - menevarad007')>
 paths:
   /:
     post:
