@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: HTML Injection Test - Ganesha
+  description: '
+    <h2>Lord Ganesha</h2>
+    <img src="https://raw.githubusercontent.com/menevarad007/swagger-xss/main/savage.jpg" width="300">
+    <p>This image is injected using raw HTML.</p>
+  '
+paths:
+  /:
+    get:
+      responses:
+        '200':
+          description: OK
