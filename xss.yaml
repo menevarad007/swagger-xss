@@ -1,14 +1,44 @@
-swagger: '2.0'
-info:
-  version: 1.0.0
-  title: Lord Ganesha Image Injected
-  description: |
-    ![Ganesh Ji](https://upload.wikimedia.org/wikipedia/commons/6/64/Ganesha.svg)
+<!DOCTYPE html>
+<html>
 
-    This image is injected via Markdown and renders properly inside Swagger UI.
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+<head>
+    <title>Marquee Tag</title>
+    <style>
+        .main {
+            text-align: center;
+            font-family: "Times New Roman";
+        }
+
+        .marq {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .geek1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+
+        .geek2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <marquee class="marq" bgcolor="Green" 
+                 direction="up" loop="">
+            <div class="geek1">
+                GeeksforGeeks
+            </div>
+            <div class="geek2">
+                A computer science portal for geeks
+            </div>
+        </marquee>
+    </div>
+</body>
+
+</html>
