@@ -1,11 +1,11 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Markdown Image Injection
+  title: Lord Ganesha Image Injected
   description: |
-    ![PoC](https://i.imgur.com/BrXWvdL.jpg)
+    ![Ganesh Ji](https://upload.wikimedia.org/wikipedia/commons/6/64/Ganesha.svg)
 
-    This image was injected using Markdown.
+    This image is injected via Markdown and renders properly inside Swagger UI.
 paths:
   /:
     post:
