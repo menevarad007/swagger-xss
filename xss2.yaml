@@ -4,7 +4,7 @@ info:
   title: HTML Injection IMG injected
   description: '
         <h1>HTML Injection : IMG injected</h1>
-        <img src=//raw.githubusercontent.com/RamanMG/swagger-xss/refs/heads/main/savage.jpg onerror=alert(document.domain)>
+        <img src=https://raw.githubusercontent.com/menevarad007/swagger-xss/main/savage.jpg onerror=alert(document.domain)>
     '
 paths:
   /:
