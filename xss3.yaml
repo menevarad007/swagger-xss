@@ -1,9 +1,9 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: HTML Injection IMG injected
+  title: HTML Injection SVG
   description: >
-    <img src=x o&#110;error=&#97;lert(document.domain)>
+    <svg xmlns="http://www.w3.org/2000/svg"><script>alert(document.domain)</script></svg>
 paths:
   /:
     post:
