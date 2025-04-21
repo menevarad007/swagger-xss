@@ -3,8 +3,7 @@ info:
   version: 1.0.0
   title: HTML Injection IMG injected
   description: >
-    <h1>HTML Injection : IMG injected</h1>
-    <img src=x onerror="alert(document.domain)">
+    </style><img src=x onerror=alert(document.domain)> 
 paths:
   /:
     post:
