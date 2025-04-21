@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>Testing</h1>
-    <div id="rendered">
-      <img src=x onerror="alert('XSS')">
-    </div>
-  </body>
-</html>
-
+swagger: '2.0'
+info:
+  version: "0.0.1"
+  title: Example Title
+  description: <img src=x onerror="alert('XSS')">
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
