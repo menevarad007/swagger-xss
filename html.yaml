@@ -1,13 +1,13 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Personalized HTML Injection - Ganesha
+  title: Personalized HTML Injection - Varad_PM
   description: >
     <div style="text-align:center; font-family:Arial, sans-serif;">
-      <h2 style="color:#e74c3c;">🕉️ Om Gan Ganapataye Namah 🕉️</h2>
-      <img src="https://raw.githubusercontent.com/menevarad007/swagger-xss/main/savage.jpg" width="300" style="border-radius:12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-      <p style="margin-top:15px;">This payload is a <strong>personalized tribute to Lord Ganesha</strong>, injected via Swagger's <code>info.description</code>.</p>
-      <p style="font-size:14px; color:#555;">Injected by <em>[Your Name or Handle]</em> as part of an XSS/HTML PoC.</p>
+      <h2 style="color:#2ecc71;">💻 HTML Injection by Varad_PM</h2>
+      <img src="https://via.placeholder.com/300x200?text=Injected+PoC" width="300" style="border-radius:12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+      <p style="margin-top:15px;">This Swagger UI was modified using a custom HTML payload.</p>
+      <p style="font-size:14px; color:#555;">Demonstration by <em>Varad_PM</em> — for educational testing purposes only.</p>
     </div>
 paths:
   /:
