@@ -1,11 +1,13 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Lord Ganesha Image Injected
+  title: HTML Injection by Varad_PM
   description: |
+    <h1>HTML Injection PoC by Varad_PM</h1>
+
     ![Ganesh Ji](https://raw.githubusercontent.com/menevarad007/swagger-xss/main/savage.jpg)
 
-    Above is a Ganesha image via direct Markdown.
+    This image was injected into Swagger using Markdown syntax.
 paths:
   /:
     post:
