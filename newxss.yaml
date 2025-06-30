@@ -2,4 +2,5 @@ paths:
   /xss:
     get:
       summary: "Test"
-     description: <img src=x onerror=alert(1)>
+     description: "<script>alert(1)</script>"
+
