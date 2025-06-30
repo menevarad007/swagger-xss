@@ -1,5 +1,5 @@
 paths:
   /xss:
     get:
-      summary: "XSS"
-      description: "<script>alert(document.domain)</script>"
+      summary: "Test"
+      description: "![xss](javascript:alert(1))"
