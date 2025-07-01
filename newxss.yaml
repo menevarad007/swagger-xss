@@ -1,6 +1,13 @@
+openapi: 3.0.0
+info:
+  title: XSS Test API
+  version: 1.0.0
 paths:
   /xss:
     get:
-      summary: "Test"
-     description: "<script>alert(1)</script>"
-
+      summary: "XSS Test"
+      description: |
+        <img src=x onerror=alert('XSS')>
+      responses:
+        '200':
+          description: OK
